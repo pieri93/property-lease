@@ -5,7 +5,10 @@ This is a smart contract for leasing a property on a blockchain network, impleme
 The contract allows a landlord and a tenant to enter into a lease agreement for a fixed duration, during which the tenant pays rent to the landlord and a deposit is held in escrow. The contract keeps track of the start and end dates of the lease and enforces the payment of rent and the release of the deposit according to the terms of the agreement.
 
 ## Usage
-To use this smart contract, you need to deploy it on a compatible blockchain network, such as the Polkadot or Kusama networks. You can deploy the contract using a compatible blockchain development tool such as Substrate or Truffle.
+
+*Warning*! This contract is an *example*. It is neither audited nor endorsed for production use. Do **not** rely on it to keep anything of value secure. Fill free to use this as a template and make changes according to your bussiness logic. 
+
+To use this smart contract, you need to deploy it on a compatible blockchain network, such as the Polkadot or Kusama networks. 
 
 Once the contract is deployed, the landlord and tenant can interact with it using compatible blockchain wallets that support the contract's functions. For example, the tenant can pay rent by calling the pay_rent function and sending the rent amount to the contract, while the landlord can release the deposit by calling the release_deposit function after the end of the lease.
 
